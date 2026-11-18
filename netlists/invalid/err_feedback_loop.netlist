@@ -1,0 +1,7 @@
+# Invalid Netlist: Combinational feedback loop
+INPUT A
+OUTPUT Y
+WIRE w1 w2
+GATE NOT g1 w1 w2
+GATE NOT g2 w2 w1
+GATE AND g3 A w2 Y

@@ -1,0 +1,4 @@
+# Invalid Netlist: Undeclared wire used in gate
+INPUT A B
+OUTPUT Y
+GATE AND g1 A undeclared_wire Y

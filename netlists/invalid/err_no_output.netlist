@@ -1,0 +1,4 @@
+# Invalid Netlist: Missing OUTPUT declaration
+INPUT A B
+WIRE w1
+GATE AND g1 A B w1

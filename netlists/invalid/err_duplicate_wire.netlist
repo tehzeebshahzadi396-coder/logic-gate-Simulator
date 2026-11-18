@@ -1,0 +1,5 @@
+# Invalid Netlist: Duplicate wire declaration
+INPUT A B
+OUTPUT Y
+WIRE w1 w1
+GATE AND g1 A B Y

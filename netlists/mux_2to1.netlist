@@ -1,0 +1,10 @@
+# 2-to-1 Multiplexer Circuit Netlist
+# Y = (D0 AND NOT S) OR (D1 AND S)
+
+INPUT D0 D1 S
+OUTPUT Y
+WIRE notS term0 term1
+GATE NOT g_not S notS
+GATE AND g_and0 D0 notS term0
+GATE AND g_and1 D1 S term1
+GATE OR g_or term0 term1 Y

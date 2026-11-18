@@ -1,0 +1,5 @@
+# Invalid Netlist: Unconnected / floating wire
+INPUT A B
+OUTPUT Y
+WIRE floatingWire
+GATE AND g1 A floatingWire Y

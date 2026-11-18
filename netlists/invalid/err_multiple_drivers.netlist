@@ -1,0 +1,5 @@
+# Invalid Netlist: Multiple drivers on wire Y
+INPUT A B C
+OUTPUT Y
+GATE AND g1 A B Y
+GATE OR  g2 B C Y

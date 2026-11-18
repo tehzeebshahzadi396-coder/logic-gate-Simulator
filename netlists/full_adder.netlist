@@ -1,0 +1,11 @@
+# Full Adder Circuit Netlist
+# Sum = A ^ B ^ Cin, Cout = (A & B) | (B & Cin) | (A & Cin)
+
+INPUT A B Cin
+OUTPUT Sum Cout
+WIRE w1 w2 w3
+GATE XOR g1 A B w1
+GATE XOR g2 w1 Cin Sum
+GATE AND g3 A B w2
+GATE AND g4 w1 Cin w3
+GATE OR g5 w2 w3 Cout

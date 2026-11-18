@@ -1,0 +1,4 @@
+# Invalid Netlist: Unknown gate type
+INPUT A B
+OUTPUT Y
+GATE MAGIC g1 A B Y

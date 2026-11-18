@@ -1,0 +1,7 @@
+# Half Adder Circuit Netlist
+# Sum = A ^ B, Cout = A & B
+
+INPUT A B
+OUTPUT Sum Cout
+GATE XOR g1 A B Sum
+GATE AND g2 A B Cout

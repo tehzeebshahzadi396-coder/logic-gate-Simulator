@@ -1,0 +1,4 @@
+# Invalid Netlist: Syntax error (unknown keyword)
+INPUT A B
+OUTPUT Y
+INVALID_KEYWORD foo bar
